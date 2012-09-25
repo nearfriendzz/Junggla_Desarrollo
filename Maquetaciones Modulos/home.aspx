@@ -35,7 +35,7 @@
                      <form class="form-inline">
                       <input type="text" class="input-small inline" placeholder="Email">
                       <input type="password" class="input-small inline" placeholder="Password">
-                      <button type="submit" class="btn btn-inline" style="margin-top:0px;margin-bottom:4px;" formaction="/login.aspx">Sign in</button>
+                      <button type="submit" class="btn btn-inline" style="margin-top:0px;margin-bottom:4px;" formaction="/login.aspx">Iniciar sesión</button>
                       <label class="checkbox">
                         <input type="checkbox">No cerrar sesión
                         <a href="">¿Has olvidado la contraseña?</a>

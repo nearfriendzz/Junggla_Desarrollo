@@ -52,7 +52,7 @@
 <div id="login" class="accounts-form">
   <h2>Iniciar sesión en Junggla</h2>
   
-   <form action="/login" method="POST" id="auth-form"><div style="display:none"><input type="hidden" name="csrfmiddlewaretoken" value="eW3N0VgiJGybL8GESa8wi1HFDhApR1O7"></div>
+   <form action="/login" method="POST" id="auth-form">
     <input type="hidden" name="next" value="/welcome/">
     
     <div class="all-errors">
@@ -63,7 +63,7 @@
          </div>
           <div class="alert alert-warning">
           <button type="button" class="close" data-dismiss="alert">×</button>
-           No es un correo valido.
+           No es un correo válido.
            </div>
     </div>
       <div class="input">
@@ -71,7 +71,7 @@
         
       </div>
       <div class="input">
-        <input type="password" name="password" id="id_password" placeholder="Password">
+        <input type="password" name="password" id="id_password" placeholder="Contraseña">
     </div>
     <div class="actions clearfix">
     <input type="submit" value="Iniciar sesión" class="btn btn-green">
@@ -80,7 +80,7 @@
     </form>
  
 </div>
-<p class="note"><a href="">¿Has olvidado la contraseña?</a> · Necesitas una cuenta? <a href="/signup">Registrate</a> </p>
+<p class="note"><a href="reset.aspx">¿Has olvidado la contraseña?</a> · Necesitas una cuenta? <a href="/signup">Registrate</a> </p>
 
       <footer>
         <p>
