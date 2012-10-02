@@ -1,0 +1,5 @@
+C:\Users\robinson\Desktop\Proyecto  Junggla\Proyecto\Web_junggla\Web_junggla\bin\Web_junggla.dll
+C:\Users\robinson\Desktop\Proyecto  Junggla\Proyecto\Web_junggla\Web_junggla\bin\Web_junggla.pdb
+C:\Users\robinson\Desktop\Proyecto  Junggla\Proyecto\Web_junggla\Web_junggla\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robinson\Desktop\Proyecto  Junggla\Proyecto\Web_junggla\Web_junggla\obj\Debug\Web_junggla.dll
+C:\Users\robinson\Desktop\Proyecto  Junggla\Proyecto\Web_junggla\Web_junggla\obj\Debug\Web_junggla.pdb

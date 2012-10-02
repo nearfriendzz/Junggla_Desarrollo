@@ -1,0 +1,194 @@
+2012-09-26 22:32:56,078 [JobplinServer][Thread:13][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 22:35:33,290 [JobplinServer][Thread:7][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 22:40:01,956 [JobplinServer][Thread:21][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 22:41:01,766 [JobplinServer][Thread:16][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 22:44:28,113 [JobplinServer][Thread:24][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 22:48:28,676 [JobplinServer][Thread:17][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 22:49:51,787 [JobplinServer][Thread:9][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 22:50:54,124 [JobplinServer][Thread:13][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 22:54:01,362 [JobplinServer][Thread:13][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 22:55:26,606 [JobplinServer][Thread:28][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 23:03:52,672 [JobplinServer][Thread:28][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 23:05:30,427 [JobplinServer][Thread:20][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 23:09:56,263 [JobplinServer][Thread:41][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 23:12:33,313 [JobplinServer][Thread:41][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 23:22:40,557 [JobplinServer][Thread:33][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 23:23:29,955 [JobplinServer][Thread:39][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 23:24:52,079 [JobplinServer][Thread:28][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 23:26:55,404 [JobplinServer][Thread:36][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 23:27:54,948 [JobplinServer][Thread:31][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 23:29:52,284 [JobplinServer][Thread:23][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 23:38:41,718 [JobplinServer][Thread:30][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 23:39:55,171 [JobplinServer][Thread:31][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify\Verify.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.FileCreateAction(String verifyPath)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFileCreate()
+2012-09-26 23:42:01,551 [JobplinServer][Thread:34][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\App_Data\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\App_Data\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 23:56:44,629 [JobplinServer][Thread:36][ERROR] DotNetNuke.Services.Log.EventLog.LogController - filePath=C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Portals\_default\\Logs\LogFailures.xml.resources, header=Unauthorized Access Error, message=The Windows User Account listed below must have Read/Write Privileges for the website path.
+2012-09-26 23:57:38,136 [JobplinServer][Thread:23][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 23:57:40,130 [JobplinServer][Thread:48][ERROR] DotNetNuke.Common.Utilities.FileSystemPermissionVerifier - Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\App_Data\Verify'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\App_Data\Verify'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at DotNetNuke.Common.Utilities.Internal.RetryableAction.TryIt()
+   at DotNetNuke.Common.Utilities.FileSystemPermissionVerifier.VerifyFolderDelete()
+2012-09-26 23:59:48,914 [JobplinServer][Thread:31][ERROR] DotNetNuke.Services.Log.EventLog.LogController - filePath=C:\Users\robinson\Documents\GitHub\Junggla_Desarrollo\Portal DotNetNuke\Portal\Portals\_default\\Logs\LogFailures.xml.resources, header=Unauthorized Access Error, message=The Windows User Account listed below must have Read/Write Privileges for the website path.
