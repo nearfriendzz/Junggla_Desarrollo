@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SiteSqlServer-Web.config Connection String" description="SiteSqlServer Connection String used in web.config by the application to access the database." defaultvalue="Data Source=db432717052.db.1and1.com,1433;Initial Catalog=db432717052;User Id=dbo432717052;Password=dolphin45;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\robinson\\Desktop\\Proyecto\ \ Junggla\\Proyecto\\Web_junggla\\Web_junggla\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SiteSqlServer']/@connectionString" />
+  </parameter>
+</parameters>

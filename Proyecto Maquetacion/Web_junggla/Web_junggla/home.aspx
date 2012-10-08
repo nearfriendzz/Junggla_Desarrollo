@@ -16,7 +16,10 @@
    <link href="/estilo/css_home.css"  rel="stylesheet" type="text/css"/>
    <script src="//js/bootstrap.js" type="text/javascript"></script>
     <script src="//js/bootstrap.min.js" type="text/javascript"></script>
-    
+     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 </head>
 <body class="home home-new  logged-out ">
 
@@ -27,7 +30,7 @@
       <div class="navbar-inner">
         <div class="container">
          
-          <a href="http://junggla.com/" class="brand"><img src="Imagenes/junggla_new_negro_mono.png" alt="junggla" style="padding-left:70px; " width="190" height="86"></a>
+          <a href="http://junggla.com/" class="brand"><img src="Imagenes/junggla_new_negro_mono.png" alt="junggla" style="padding-left:70px;" width="190px" height="86px"></a>
           <div class="nav-collapse">
               
               
