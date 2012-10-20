@@ -1,0 +1,1 @@
+<%@ Control Language="vb" AutoEventWireup="false" Inherits="Junggla.Modules.Login.SettingsLogin" Codebehind="SettingsLogin.ascx.vb" %>

@@ -1,0 +1,7 @@
+C:\inetpub\wwwroot\junggla\bin\Junggla.Login.dll
+C:\inetpub\wwwroot\junggla\bin\Junggla.Login.pdb
+C:\inetpub\wwwroot\junggla\bin\Junggla.Login.xml
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Login\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Login\obj\Debug\Junggla.Login.dll
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Login\obj\Debug\Junggla.Login.xml
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Login\obj\Debug\Junggla.Login.pdb

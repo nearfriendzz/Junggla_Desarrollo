@@ -1,0 +1,37 @@
+﻿<dotnetnuke type="Package" version="1.0">
+  <packages><package name="Junggla.Skin" type="Skin" version="1.0.0">
+  <friendlyName>Junggla.Skin</friendlyName>
+  <description />
+  <owner>
+    <name>Junggla.Skin</name>
+    <organization>junggla</organization>
+    <url>www.junggla.com</url>
+    <email>rmartinez@junggla.com</email>
+  </owner>
+  <license></license>
+  <releaseNotes></releaseNotes>
+  <components>
+    <component type="Skin">
+      <skinFiles>
+        <skinName>Junggla.skin</skinName>
+        <basePath>Portals\_default\Skins\Junggla.Skin</basePath>
+        <skinFile>
+          <name>Home.ascx</name>
+        </skinFile>
+		<skinFile>
+          <name>Page.ascx</name>
+        </skinFile>
+		<skinFile>
+          <name>PageWithFooter.ascx</name>
+        </skinFile>
+		<skinFile>
+          <name>PageWithoutCtlLogin.ascx</name>
+        </skinFile>
+		<skinFile>
+          <name>PageResetPassword.ascx</name>
+        </skinFile>
+      </skinFiles>
+    </component>
+  </components>
+</package></packages>
+</dotnetnuke>

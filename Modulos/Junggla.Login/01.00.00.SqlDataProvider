@@ -1,0 +1,122 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Create Table **/
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Junggla_Login_ResetPassword]') AND OBJECTPROPERTY(id, N'IsTable') = 1)
+   BEGIN
+       CREATE TABLE {databaseOwner}[{objectQualifier}Junggla_Login_ResetPassword]
+       (
+           [ResetPasswordID] [int] NOT NULL  IDENTITY(1, 1),
+           [UserID] [int] NOT NULL  ,
+           [Codigo] [nvarchar](20) NOT NULL  ,
+           [FechaAlta] [datetime] NOT NULL  ,
+           [FechaUso] [datetime] NULL  
+       )
+
+       ALTER TABLE {databaseOwner}[{objectQualifier}Junggla_Login_ResetPassword] ADD CONSTRAINT [PK_{objectQualifier}Junggla_Login_ResetPassword_ResetPasswordID] PRIMARY KEY CLUSTERED ([ResetPasswordID])
+   END
+GO
+
+
+/** Drop Existing Stored Procedures **/
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Junggla_Login_ResetPassword_AddResetPassword]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_AddResetPassword
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Junggla_Login_ResetPassword_UpdateResetPassword]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_UpdateResetPassword
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Junggla_Login_ResetPassword_DeleteResetPassword]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_DeleteResetPassword
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Junggla_Login_ResetPassword_GetResetPasswordByResetPasswordID]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_GetResetPasswordByResetPasswordID
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Junggla_Login_ResetPassword_GetListResetPassword]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_GetListResetPassword
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Junggla_Login_ResetPassword_GetResetPasswordByCodigo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_GetResetPasswordByCodigo
+GO
+
+
+/** Create Stored Procedures **/
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_AddResetPassword
+   @UserID int,
+   @Codigo nvarchar(20),
+   @FechaAlta datetime,
+   @FechaUso datetime
+AS
+INSERT INTO {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword (
+   UserID,
+   Codigo,
+   FechaAlta,
+   FechaUso
+) VALUES (
+   @UserID,
+   @Codigo,
+   @FechaAlta,
+   @FechaUso
+)
+SELECT SCOPE_IDENTITY()
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_UpdateResetPassword
+   @ResetPasswordID int,
+   @UserID int,
+   @Codigo nvarchar(20),
+   @FechaAlta datetime,
+   @FechaUso datetime
+AS
+UPDATE {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword 
+SET 
+   UserID = @UserID,
+   Codigo = @Codigo,
+   FechaAlta = @FechaAlta,
+   FechaUso = @FechaUso 
+WHERE
+ResetPasswordID = @ResetPasswordID
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_DeleteResetPassword
+   @ResetPasswordID int
+AS
+DELETE
+FROM {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword 
+WHERE ResetPasswordID = @ResetPasswordID 
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_GetResetPasswordByResetPasswordID
+   @ResetPasswordID int
+AS
+SELECT * FROM {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword 
+WHERE ResetPasswordID = @ResetPasswordID 
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_GetListResetPassword
+AS
+SELECT * FROM {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword 
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword_GetResetPasswordByCodigo
+   @Codigo int
+AS
+SELECT * FROM {databaseOwner}{objectQualifier}Junggla_Login_ResetPassword 
+WHERE Codigo = @Codigo 
+GO
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

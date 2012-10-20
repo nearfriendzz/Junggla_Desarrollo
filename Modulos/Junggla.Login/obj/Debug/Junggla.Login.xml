@@ -1,0 +1,382 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Junggla.Login
+</name>
+</assembly>
+<members>
+<member name="F:Junggla.Modules.Login.ctlNewPassword.ChangePassword">
+	<summary>
+Control ChangePassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlNewPassword.errorPassword">
+	<summary>
+Control errorPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlNewPassword.errorCode">
+	<summary>
+Control errorCode.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlNewPassword.txtNewPassword">
+	<summary>
+Control txtNewPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlNewPassword.txtVerifyPassword">
+	<summary>
+Control txtVerifyPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlNewPassword.btnSend">
+	<summary>
+Control btnSend.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlNewPassword.ChangedPassword">
+	<summary>
+Control ChangedPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlNewPassword.lblInfo">
+	<summary>
+Control lblInfo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlNewPassword.lblInfo2">
+	<summary>
+Control lblInfo2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="M:Junggla.Modules.Login.ModuleBase.FiltrarTexto(System.String)">
+ -----------------------------------------------------------------------------
+ <name>
+ FiltrarTexto
+ </name>
+	<summary>
+ Devuelve el texto eliminando posibles ataques
+ </summary>
+	<remarks>
+	</remarks>
+	<param name="Texto">Texto a filtrar</param>
+	<returns>
+ Devuelve el texto eliminando posibles ataques
+ </returns>
+	<history>
+ 01.00.00 - 06/05/2010 - Carlos López - Creación
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:Junggla.Modules.Login.ctlRecoverPassword.SendLogin">
+	<summary>
+Control SendLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlRecoverPassword.errorUsuario">
+	<summary>
+Control errorUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlRecoverPassword.errorEmail">
+	<summary>
+Control errorEmail.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlRecoverPassword.txtUserName">
+	<summary>
+Control txtUserName.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlRecoverPassword.btnSend">
+	<summary>
+Control btnSend.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlRecoverPassword.EmailSend">
+	<summary>
+Control EmailSend.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlRecoverPassword.lblInfo">
+	<summary>
+Control lblInfo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlRecoverPassword.lblInfo2">
+	<summary>
+Control lblInfo2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlLogin.pnlData">
+	<summary>
+Control pnlData.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlLogin.txtUserName">
+	<summary>
+Control txtUserName.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlLogin.txtPassword">
+	<summary>
+Control txtPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlLogin.btnLogin">
+	<summary>
+Control btnLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlLogin.chkRememberSession">
+	<summary>
+Control chkRememberSession.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlLogin.pnlUserData">
+	<summary>
+Control pnlUserData.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlLogin.lblUserNameInfo">
+	<summary>
+Control lblUserNameInfo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlLogin.lblUserName">
+	<summary>
+Control lblUserName.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ctlLogin.btnLogOff">
+	<summary>
+Control btnLogOff.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="M:Junggla.Modules.Login.SettingsLogin.LoadSettings">
+ -----------------------------------------------------------------------------
+ <summary>
+ LoadSettings loads the settings from the Database and displays them
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:Junggla.Modules.Login.SettingsLogin.UpdateSettings">
+ -----------------------------------------------------------------------------
+ <summary>
+ UpdateSettings saves the modified settings to the Database
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Junggla.Modules.Login.SettingsLogin">
+ -----------------------------------------------------------------------------
+ <summary>
+ The Settings class manages Module Settings
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:Junggla.Modules.Login.ViewLogin.errorUsuario">
+	<summary>
+Control errorUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ViewLogin.errorPassword">
+	<summary>
+Control errorPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ViewLogin.errorEmail">
+	<summary>
+Control errorEmail.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ViewLogin.errorBloqueo">
+	<summary>
+Control errorBloqueo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ViewLogin.txtUserName">
+	<summary>
+Control txtUserName.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ViewLogin.txtPassword">
+	<summary>
+Control txtPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Login.ViewLogin.btnLogin">
+	<summary>
+Control btnLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="M:Junggla.Modules.Login.EditLogin.Page_Load(System.Object,System.EventArgs)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Page_Load runs when the control is loaded
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Junggla.Modules.Login.EditLogin">
+ -----------------------------------------------------------------------------
+ <summary>
+ The EditJunggla.Login class is used to manage content
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Junggla.Modules.Login.LoginController">
+ -----------------------------------------------------------------------------
+ <summary>
+ The Controller class for Junggla.Login
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:Junggla.Modules.Login.ViewLogin.Page_Load(System.Object,System.EventArgs)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Page_Load runs when the control is loaded
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Junggla.Modules.Login.ViewLogin">
+ -----------------------------------------------------------------------------
+ <summary>
+ The ViewJunggla.Login class displays the content
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>
