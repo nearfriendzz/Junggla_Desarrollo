@@ -1,0 +1,120 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Create Table **/
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Junggla_Invitacion]') AND OBJECTPROPERTY(id, N'IsTable') = 1)
+   BEGIN
+       CREATE TABLE {databaseOwner}[{objectQualifier}Junggla_Invitacion]
+       (
+           [InvitacionID] [int] NOT NULL  IDENTITY(1, 1),
+           [Email] [nvarchar](320) NOT NULL  ,
+           [Estado] [int] NOT NULL  ,
+           [FechaAlta] [datetime] NOT NULL  ,
+           [FechaUso] [datetime] NOT NULL  
+       )
+
+       ALTER TABLE {databaseOwner}[{objectQualifier}Junggla_Invitacion] ADD CONSTRAINT [PK_{objectQualifier}Junggla_Invitacion_InvitacionID] PRIMARY KEY CLUSTERED ([InvitacionID])
+   END
+GO
+
+
+/** Drop Existing Stored Procedures **/
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Invitacion_AddInvitacion]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Invitacion_AddInvitacion
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Invitacion_UpdateInvitacion]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Invitacion_UpdateInvitacion
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Invitacion_DeleteInvitacion]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Invitacion_DeleteInvitacion
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Invitacion_GetInvitacionByInvitacionID]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Invitacion_GetInvitacionByInvitacionID
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Invitacion_GetListInvitacion]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Invitacion_GetListInvitacion
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Invitacion_GetInvitacionByEmail]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Invitacion_GetInvitacionByEmail
+GO
+
+/** Create Stored Procedures **/
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Invitacion_AddInvitacion
+   @Email nvarchar(320),
+   @Estado int,
+   @FechaAlta datetime,
+   @FechaUso datetime
+AS
+INSERT INTO {databaseOwner}{objectQualifier}Junggla_Invitacion (
+   Email,
+   Estado,
+   FechaAlta,
+   FechaUso
+) VALUES (
+   @Email,
+   @Estado,
+   @FechaAlta,
+   @FechaUso
+)
+SELECT SCOPE_IDENTITY()
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Invitacion_UpdateInvitacion
+   @InvitacionID int,
+   @Email nvarchar(320),
+   @Estado int,
+   @FechaAlta datetime,
+   @FechaUso datetime
+AS
+UPDATE {databaseOwner}{objectQualifier}Junggla_Invitacion 
+SET 
+   Email = @Email,
+   Estado = @Estado,
+   FechaAlta = @FechaAlta,
+   FechaUso = @FechaUso 
+WHERE
+InvitacionID = @InvitacionID
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Invitacion_DeleteInvitacion
+   @InvitacionID int
+AS
+DELETE
+FROM {databaseOwner}{objectQualifier}Junggla_Invitacion 
+WHERE InvitacionID = @InvitacionID 
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Invitacion_GetInvitacionByInvitacionID
+   @InvitacionID int
+AS
+SELECT * FROM {databaseOwner}{objectQualifier}Junggla_Invitacion 
+WHERE InvitacionID = @InvitacionID 
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Invitacion_GetListInvitacion
+AS
+SELECT * FROM {databaseOwner}{objectQualifier}Junggla_Invitacion 
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Invitacion_GetInvitacionByEmail
+   @Email nvarchar(320)
+AS
+SELECT * FROM {databaseOwner}{objectQualifier}Junggla_Invitacion 
+WHERE Email = @Email 
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

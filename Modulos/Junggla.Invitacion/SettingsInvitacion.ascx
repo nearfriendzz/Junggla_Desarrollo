@@ -1,0 +1,1 @@
+<%@ Control Language="vb" AutoEventWireup="false" Inherits="Junggla.Modules.Invitacion.SettingsInvitacion" Codebehind="SettingsInvitacion.ascx.vb" %>

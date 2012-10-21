@@ -1,0 +1,10 @@
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Invitacion\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Invitacion\obj\Debug\Resources.resources
+C:\inetpub\wwwroot\junggla\bin\Junggla.Invitacion.dll
+C:\inetpub\wwwroot\junggla\bin\Junggla.Invitacion.pdb
+C:\inetpub\wwwroot\junggla\bin\Junggla.Invitacion.xml
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Invitacion\obj\Debug\Junggla.Invitacion.dll
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Invitacion\obj\Debug\Junggla.Invitacion.xml
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Invitacion\obj\Debug\Junggla.Invitacion.pdb
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Invitacion\obj\Debug\ResGen.read.1.tlog
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Invitacion\obj\Debug\ResGen.write.1.tlog
