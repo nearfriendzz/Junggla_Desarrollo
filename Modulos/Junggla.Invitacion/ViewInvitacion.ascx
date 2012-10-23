@@ -1,6 +1,6 @@
 <%@ Control language="vb" Inherits="Junggla.Modules.Invitacion.ViewInvitacion" AutoEventWireup="true" Explicit="True" Codebehind="ViewInvitacion.ascx.vb" %>
 
-<script type="text/javascript" language="javascript" src="/junggla/js/jquery.placeholder.js"></script>
+<script type="text/javascript" language="javascript" src="/js/jquery.placeholder.js"></script>
 
 <script type="text/javascript" language="javascript">
     function Accept(id) {

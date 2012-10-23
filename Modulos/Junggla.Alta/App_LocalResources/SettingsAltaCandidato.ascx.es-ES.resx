@@ -117,38 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnAccept.Text" xml:space="preserve">
-    <value>Aceptar invitación</value>
+  <data name="lblMode.Text" xml:space="preserve">
+    <value>Modo de operación</value>
   </data>
-  <data name="btnReject.Text" xml:space="preserve">
-    <value>Rechazar invitación</value>
+  <data name="ModeInvitation.Text" xml:space="preserve">
+    <value>Invitación</value>
   </data>
-  <data name="Message.Text" xml:space="preserve">
-    <value>&lt;h2&gt;Solicitud de invitación aceptada&lt;/h2&gt;
-&lt;table&gt;
-	&lt;tr&gt;
-		&lt;td&gt;
-			Hola.
-			&lt;br /&gt;
-			Su solicitud de invitacion de Junggla ha sido aceptada.
-		&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;
-			Para registrarse en el sistema Junggla, dirijase a la siguiente dirección:
-			&lt;br /&gt;
-			&lt;a href="http://www.junggla.com/AltaCandidato.aspx" &gt;http://www.junggla.com/Alta.aspx&lt;/a&gt;
-		&lt;/td&gt;
-	&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;div&gt;
-	&lt;span&gt;Soporte de Junngla&lt;/span&gt;
-	&lt;hr /&gt;
-	&lt;span&gt;Por favor, no respondas a este mensaje. Fue enviado desde una dirección de correo electrónico no monitorizada. Este mensaje es un servicio de correo electrónico relacionado con tu uso de Junggla. &lt;/span&gt;
-&lt;/div&gt;</value>
-  </data>
-  <data name="MessageSubject.Text" xml:space="preserve">
-    <value>Invitacion a Junggla aceptada</value>
+  <data name="ModeNormal.Text" xml:space="preserve">
+    <value>Normal</value>
   </data>
 </root>

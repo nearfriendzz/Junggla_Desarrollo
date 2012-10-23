@@ -1,6 +1,6 @@
 <%@ Control language="vb" Inherits="Junggla.Modules.Login.ViewLogin" AutoEventWireup="false" Explicit="True" Codebehind="ViewLogin.ascx.vb" %>
 
-<script type="text/javascript" language="javascript" src="/junggla/js/jquery.placeholder.js"></script>
+<script type="text/javascript" language="javascript" src="/js/jquery.placeholder.js"></script>
 
 <div id="LoginError">
     <div class="thumbnail">

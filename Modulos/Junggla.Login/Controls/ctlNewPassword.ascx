@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ctlNewPassword.ascx.vb" Inherits="Junggla.Modules.Login.ctlNewPassword" %>
 
-<script tye="text/javascript" language="javascript" src="/junggla/js/jquery.placeholder.js"></script>
+<script tye="text/javascript" language="javascript" src="/js/jquery.placeholder.js"></script>
 
 <div id="ChangePassword" runat="server" class="ChangePassword">
     <div class="thumbnail">

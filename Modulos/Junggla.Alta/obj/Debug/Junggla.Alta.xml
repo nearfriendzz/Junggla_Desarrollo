@@ -1,0 +1,235 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Junggla.Alta
+</name>
+</assembly>
+<members>
+<member name="M:Junggla.Modules.Alta.SettingsAltaCandidato.LoadSettings">
+ -----------------------------------------------------------------------------
+ <summary>
+ LoadSettings loads the settings from the Database and displays them
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:Junggla.Modules.Alta.SettingsAltaCandidato.UpdateSettings">
+ -----------------------------------------------------------------------------
+ <summary>
+ UpdateSettings saves the modified settings to the Database
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Junggla.Modules.Alta.SettingsAltaCandidato">
+ -----------------------------------------------------------------------------
+ <summary>
+ The Settings class manages Module Settings
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:Junggla.Modules.Alta.SettingsAltaCandidato.lblMode">
+	<summary>
+Control lblMode.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.SettingsAltaCandidato.rblMode">
+	<summary>
+Control rblMode.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:Junggla.Modules.Alta.ViewAltaCandidato">
+ -----------------------------------------------------------------------------
+ <summary>
+ The ViewJunggla.Invitacion class displays the content
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.success">
+	<summary>
+Control success.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.errorRequired">
+	<summary>
+Control errorRequired.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.errorPassword">
+	<summary>
+Control errorPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.errorEmail">
+	<summary>
+Control errorEmail.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.errorUser">
+	<summary>
+Control errorUser.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.errorInvitation">
+	<summary>
+Control errorInvitation.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.txtName">
+	<summary>
+Control txtName.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.txtSurname">
+	<summary>
+Control txtSurname.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.txtEmail">
+	<summary>
+Control txtEmail.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.txtPassword">
+	<summary>
+Control txtPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.txtRePassword">
+	<summary>
+Control txtRePassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Junggla.Modules.Alta.ViewAltaCandidato.btnRegister">
+	<summary>
+Control btnRegister.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="P:My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="T:My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Junggla.Modules.Alta.AltaController">
+ -----------------------------------------------------------------------------
+ <summary>
+ The Controller class for Junggla.Alta
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:Junggla.Modules.Alta.ModuleBase.FiltrarTexto(System.String)">
+ -----------------------------------------------------------------------------
+ <name>
+ FiltrarTexto
+ </name>
+	<summary>
+ Devuelve el texto eliminando posibles ataques
+ </summary>
+	<remarks>
+	</remarks>
+	<param name="Texto">Texto a filtrar</param>
+	<returns>
+ Devuelve el texto eliminando posibles ataques
+ </returns>
+	<history>
+ 01.00.00 - 06/05/2010 - Carlos López - Creación
+ </history>
+ -----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>

@@ -642,7 +642,7 @@ namespace DotNetNuke.Framework
 
                         UserController.UserLogin(PortalSettings.PortalId, Request.Cookies["userName"].Value, Request.Cookies["password"].Value, "",                                                 PortalSettings.PortalName, "", ref loginStatus, false);
                         if (loginStatus != UserLoginStatus.LOGIN_USERNOTAPPROVED && loginStatus != UserLoginStatus.LOGIN_USERLOCKEDOUT && loginStatus !=                                            UserLoginStatus.LOGIN_FAILURE) {
-                            Response.Redirect("/junggla/Home.aspx");
+                            Response.Redirect("/Home.aspx");
                         }
                     }
 
@@ -651,7 +651,7 @@ namespace DotNetNuke.Framework
             }
             if (Request.IsAuthenticated) {
                 if (Request.QueryString["TabId"] == null) {
-                    Response.Redirect("/junggla/Home.aspx");
+                    Response.Redirect("/Home.aspx");
                 }
             }
             ///////////////////////////////////////////////////////////////

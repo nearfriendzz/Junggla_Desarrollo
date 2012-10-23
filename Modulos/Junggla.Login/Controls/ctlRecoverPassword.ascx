@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ctlRecoverPassword.ascx.vb" Inherits="Junggla.Modules.Login.ctlRecoverPassword" %>
 
-<script tye="text/javascript" language="javascript" src="/junggla/js/jquery.placeholder.js"></script>
+<script tye="text/javascript" language="javascript" src="/js/jquery.placeholder.js"></script>
 
 <div id="SendLogin" runat="server" class="SendLogin">
     <div class="thumbnail">

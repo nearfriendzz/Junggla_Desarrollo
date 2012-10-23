@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ctlRequestInvitation.ascx.vb" Inherits="Junggla.Modules.Invitacion.ctlRequestInvitation" %>
 
-<script type="text/javascript" language="javascript" src="/junggla/js/jquery.placeholder.js"></script>
+<script type="text/javascript" language="javascript" src="/js/jquery.placeholder.js"></script>
 
  <div class="home-discover">
     <section class="clearfix">

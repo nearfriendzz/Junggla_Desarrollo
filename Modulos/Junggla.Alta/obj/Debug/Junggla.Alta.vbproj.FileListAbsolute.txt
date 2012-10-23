@@ -1,0 +1,10 @@
+C:\inetpub\wwwroot\junggla\bin\Junggla.Alta.dll
+C:\inetpub\wwwroot\junggla\bin\Junggla.Alta.pdb
+C:\inetpub\wwwroot\junggla\bin\Junggla.Alta.xml
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Alta\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Alta\obj\Debug\Resources.resources
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Alta\obj\Debug\ResGen.read.1.tlog
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Alta\obj\Debug\ResGen.write.1.tlog
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Alta\obj\Debug\Junggla.Alta.dll
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Alta\obj\Debug\Junggla.Alta.xml
+C:\inetpub\wwwroot\junggla\DesktopModules\Junggla.Alta\obj\Debug\Junggla.Alta.pdb

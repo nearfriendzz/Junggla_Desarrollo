@@ -7,16 +7,15 @@
     </ProductVersion>
     <SchemaVersion>
     </SchemaVersion>
-    <ProjectGuid>{FA7446CE-97FE-431F-B0A8-861204081666}</ProjectGuid>
+    <ProjectGuid>{04F706E8-DBB5-442E-8939-036114F74E37}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>
     </RootNamespace>
-    <AssemblyName>Junggla.Invitacion</AssemblyName>
+    <AssemblyName>Junggla.Alta</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <MyType>Custom</MyType>
     <UseIISExpress>false</UseIISExpress>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,8 +23,8 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>..\..\bin\</OutputPath>
-    <DocumentationFile>Junggla.Invitacion.xml</DocumentationFile>
-    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DocumentationFile>Junggla.Alta.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,8 +32,8 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>Junggla.Invitacion.xml</DocumentationFile>
-    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DocumentationFile>Junggla.Alta.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
     <OptionExplicit>On</OptionExplicit>
@@ -53,10 +52,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\bin\DotNetNuke.dll</HintPath>
     </Reference>
-    <Reference Include="DotNetNuke.SqlDataProvider, Version=6.2.1.11, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\bin\DotNetNuke.SqlDataProvider.dll</HintPath>
-    </Reference>
     <Reference Include="DotNetNuke.Web, Version=6.2.3.141, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\bin\DotNetNuke.Web.dll</HintPath>
@@ -69,20 +64,23 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\bin\DotNetNuke.WebUtility.dll</HintPath>
     </Reference>
+    <Reference Include="Junggla.Invitacion, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Junggla.Invitacion.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="System.Web.DynamicData" />
-    <Reference Include="System.Web.Entity" />
-    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -108,16 +106,9 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\InvitacionController.vb" />
+    <Compile Include="Components\AltaController.vb" />
+    <Compile Include="Components\CandidatoInfo.vb" />
     <Compile Include="Components\ModuleBase.vb">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Components\InvitacionInfo.vb" />
-    <Compile Include="Controls\ctlRequestInvitation.ascx.designer.vb">
-      <DependentUpon>ctlRequestInvitation.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\ctlRequestInvitation.ascx.vb">
-      <DependentUpon>ctlRequestInvitation.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -139,30 +130,29 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="SettingsInvitacion.ascx.designer.vb">
-      <DependentUpon>SettingsInvitacion.ascx</DependentUpon>
+    <Compile Include="SettingsAltaCandidato.ascx.designer.vb">
+      <DependentUpon>SettingsAltaCandidato.ascx</DependentUpon>
     </Compile>
-    <Compile Include="SettingsInvitacion.ascx.vb">
-      <DependentUpon>SettingsInvitacion.ascx</DependentUpon>
+    <Compile Include="SettingsAltaCandidato.ascx.vb">
+      <DependentUpon>SettingsAltaCandidato.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ViewInvitacion.ascx.designer.vb">
-      <DependentUpon>ViewInvitacion.ascx</DependentUpon>
+    <Compile Include="ViewAltaCandidato.ascx.designer.vb">
+      <DependentUpon>ViewAltaCandidato.ascx</DependentUpon>
     </Compile>
-    <Compile Include="ViewInvitacion.ascx.vb">
-      <DependentUpon>ViewInvitacion.ascx</DependentUpon>
+    <Compile Include="ViewAltaCandidato.ascx.vb">
+      <DependentUpon>ViewAltaCandidato.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Controls\App_LocalResources\ctlRequestInvitation.ascx.resx" />
-    <Content Include="Controls\App_LocalResources\ctlRequestInvitation.ascx.es-ES.resx" />
-    <Content Include="SettingsInvitacion.ascx" />
-    <Content Include="ViewInvitacion.ascx" />
-    <Content Include="App_LocalResources\ViewInvitacion.ascx.resx" />
-    <Content Include="App_LocalResources\ViewInvitacion.ascx.es-ES.resx" />
-    <Content Include="App_LocalResources\SettingsInvitacion.ascx.es-ES.resx" />
-    <Content Include="App_LocalResources\SettingsInvitacion.ascx.resx" />
+    <Content Include="App_LocalResources\SettingsAltaCandidato.ascx.es-ES.resx" />
+    <Content Include="App_LocalResources\SettingsAltaCandidato.ascx.resx" />
+    <Content Include="App_LocalResources\ViewAltaCandidato.ascx.es-ES.resx" />
+    <Content Include="App_LocalResources\ViewAltaCandidato.ascx.resx" />
+    <Content Include="Module.css" />
+    <Content Include="SettingsAltaCandidato.ascx" />
+    <Content Include="ViewAltaCandidato.ascx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -172,7 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="01.00.00.SqlDataProvider" />
-    <None Include="Junggla.Invitacion.dnn" />
+    <None Include="Junggla.Alta.dnn" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -185,10 +175,6 @@
     <None Include="Uninstall.SqlDataProvider" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Content Include="Controls\ctlRequestInvitation.ascx" />
-    <Content Include="Module.css" />
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
@@ -197,7 +183,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>8150</DevelopmentServerPort>
+          <DevelopmentServerPort>1449</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

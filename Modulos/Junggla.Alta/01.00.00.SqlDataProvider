@@ -1,0 +1,134 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Create Table **/
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Junggla_Candidato]') AND OBJECTPROPERTY(id, N'IsTable') = 1)
+   BEGIN
+       CREATE TABLE {databaseOwner}[{objectQualifier}Junggla_Candidato]
+       (
+           [CandidatoID] [int] NOT NULL  IDENTITY(1, 1),
+           [UserDnnID] [int] NOT NULL  ,
+           [Nombre] [nvarchar](30) NOT NULL  ,
+           [Apellidos] [nvarchar](120) NOT NULL  ,
+           [Email] [nvarchar](320) NOT NULL  ,
+           [Contraseña] [nvarchar](20) NOT NULL  ,
+           [FechaAlta] [datetime] NOT NULL  ,
+           [FechaModif] [datetime] NOT NULL  ,
+           [FechaBaja] [datetime] NOT NULL  
+       )
+
+       ALTER TABLE {databaseOwner}[{objectQualifier}Junggla_Candidato] ADD CONSTRAINT [PK_{objectQualifier}Junggla_Candidato_CandidatoID] PRIMARY KEY CLUSTERED ([CandidatoID])
+   END
+GO
+
+
+/** Drop Existing Stored Procedures **/
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Candidato_AddCandidato]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Candidato_AddCandidato
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Candidato_UpdateCandidato]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Candidato_UpdateCandidato
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Candidato_DeleteCandidato]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Candidato_DeleteCandidato
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Candidato_GetCandidatoByCandidatoID]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Candidato_GetCandidatoByCandidatoID
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}Candidato_GetListCandidato]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+   drop procedure {databaseOwner}{objectQualifier}Candidato_GetListCandidato
+GO
+
+
+/** Create Stored Procedures **/
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Candidato_AddCandidato
+   @UserDnnID int,
+   @Nombre nvarchar(30),
+   @Apellidos nvarchar(120),
+   @Email nvarchar(320),
+   @Contraseña nvarchar(20),
+   @FechaAlta datetime,
+   @FechaModif datetime,
+   @FechaBaja datetime
+AS
+INSERT INTO {databaseOwner}{objectQualifier}Junggla_Candidato (
+   UserDnnID,
+   Nombre,
+   Apellidos,
+   Email,
+   Contraseña,
+   FechaAlta,
+   FechaModif,
+   FechaBaja
+) VALUES (
+   @UserDnnID,
+   @Nombre,
+   @Apellidos,
+   @Email,
+   @Contraseña,
+   @FechaAlta,
+   @FechaModif,
+   @FechaBaja
+)
+SELECT SCOPE_IDENTITY()
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Candidato_UpdateCandidato
+   @CandidatoID int,
+   @UserDnnID int,
+   @Nombre nvarchar(30),
+   @Apellidos nvarchar(120),
+   @Email nvarchar(320),
+   @Contraseña nvarchar(20),
+   @FechaAlta datetime,
+   @FechaModif datetime,
+   @FechaBaja datetime
+AS
+UPDATE {databaseOwner}{objectQualifier}Junggla_Candidato 
+SET 
+   UserDnnID = @UserDnnID,
+   Nombre = @Nombre,
+   Apellidos = @Apellidos,
+   Email = @Email,
+   Contraseña = @Contraseña,
+   FechaAlta = @FechaAlta,
+   FechaModif = @FechaModif,
+   FechaBaja = @FechaBaja 
+WHERE
+CandidatoID = @CandidatoID
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Candidato_DeleteCandidato
+   @CandidatoID int
+AS
+DELETE
+FROM {databaseOwner}{objectQualifier}Junggla_Candidato 
+WHERE CandidatoID = @CandidatoID 
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Candidato_GetCandidatoByCandidatoID
+   @CandidatoID int
+AS
+SELECT * FROM {databaseOwner}{objectQualifier}Junggla_Candidato 
+WHERE CandidatoID = @CandidatoID 
+GO
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Candidato_GetListCandidato
+AS
+SELECT * FROM {databaseOwner}{objectQualifier}Junggla_Candidato 
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

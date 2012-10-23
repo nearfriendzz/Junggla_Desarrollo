@@ -18,7 +18,7 @@ Namespace Junggla.Modules.Login
         Protected Sub btnSend_Click(sender As Object, e As EventArgs) Handles btnSend.Click
             If Regex.IsMatch(txtUserName.Text, "^([\w-]+\.)*?[\w-]+@[\w-]+\.([\w-]+\.)*?[\w]+$") Then
                 Dim email As String = FiltrarTexto(txtUserName.Text)  'Email indicado por el usuario
-                Dim userList As ArrayList = UserController.GetUsersByEmail(PortalId, email, 0, 1, 1)  'Lista de usuarios que poseen el emal indicado
+                Dim userList As ArrayList = UserController.GetUsersByEmail(PortalId, email, 0, 1, 1)  'Lista de usuarios que poseen el email indicado
                 Dim objUser As UserInfo  'El objeto del usuario
                 Dim code As String = DateTime.Now.Ticks.ToString 'El codigo generado es la fecha y hora actual expresada en ticks de reloj.
                 Dim URL As String = "http://www.junggla.com/newpassword.aspx?code=" & code  'La ruta que ira en el correo electronico enviado al usuario
